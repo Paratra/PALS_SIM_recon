@@ -1,0 +1,6 @@
+# Runtime versions used to verify this repository with Python 3.12.
+numpy==2.3.3
+scipy==1.17.0
+matplotlib==3.10.6
+tifffile==2025.9.9
+h5py==3.14.0

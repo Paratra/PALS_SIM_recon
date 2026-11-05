@@ -1,0 +1,39 @@
+# Experimental images, calibration and numerical data (also uppercase extensions).
+*.[tT][iI][fF]
+*.[tT][iI][fF][fF]
+*.[hH]5
+*.[hH][dD][fF]5
+*.npy
+*.npz
+*.mat
+*.repz
+*.cfg
+*.zip
+data/
+result/
+results/
+output/
+outputs/
+parameters.json
+
+# Python and local environments.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Editor, operating-system and credential files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.log
