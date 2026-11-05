@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata in this file."
+type: software
+title: PALS_SIM_recon
+authors:
+  - name: PALS_SIM_recon contributors
+repository-code: "https://github.com/Paratra/PALS_SIM_recon"
+url: "https://github.com/Paratra/PALS_SIM_recon"
+abstract: >-
+  Python code for two-dimensional structured illumination microscopy
+  reconstruction with three illumination directions and three phase steps.
+  Includes a command-line workflow, optical model utilities and synthetic tests.
+license: BSD-3-Clause
+keywords:
+  - structured illumination microscopy
+  - SIM
+  - microscopy
+  - image reconstruction
+  - Python

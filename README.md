@@ -2,6 +2,8 @@
 
 Python code for **2D structured illumination microscopy (SIM) reconstruction**, using three illumination directions and three phase steps per direction. Each group of nine raw frames is reconstructed independently onto a grid with twice the input width and height.
 
+This is the reconstruction code accompanying an **Optica** research article.
+
 This repository contains reconstruction code, documentation and synthetic tests. Experimental images, calibration files and reconstruction results are not included.
 
 ## Installation
@@ -130,4 +132,14 @@ Tests generate small synthetic arrays and temporary TIFF/HDF5 files; no experime
 
 ## Attribution
 
-The core reconstruction code identifies **Peter Kner, University of Georgia (2019)** as its author. The PSF and Zernike utilities also originate from Peter Kner's code; the original Zernike copyright notice is retained. This repository organizes the existing project and its later experiment runner into a reusable command-line workflow. No new license has been assigned to the inherited code.
+The core reconstruction code identifies **Peter Kner, University of Georgia (2019)** as its author. The PSF and Zernike utilities also originate from Peter Kner's code; the original Zernike copyright notice is retained. This repository organizes the existing project and its later experiment runner into a reusable command-line workflow.
+
+## License
+
+Released under the **[BSD 3-Clause License](LICENSE)**. It permits use, modification and redistribution, including commercial use, while requiring preservation of the copyright notice and license terms. The names of the copyright holders and contributors may not be used to endorse derived products without prior written permission. See `LICENSE` for the complete terms and warranty disclaimer.
+
+## Citation
+
+If you use this code in published research, please cite the associated Optica article and reference this repository, including the commit used for your results. Article citation details will be added when available.
+
+Software citation metadata is provided in [CITATION.cff](CITATION.cff), which GitHub displays through its **Cite this repository** feature. The citation request is an academic courtesy, not an additional restriction on the BSD 3-Clause License.
