@@ -113,13 +113,6 @@ The full input stack is loaded into memory. Refinement uses repeated Fourier tra
 
 The original module names are retained for familiarity. Dataset-specific scripts, backups, hardcoded workstation paths, debug breakpoints and abandoned commented implementations were excluded or removed.
 
-### Numerical compatibility
-
-The original reconstruction expressions, Fourier normalization, search grid and PSF model are retained. CLI defaults match the original main script. Direct `si2D` construction retains its legacy defaults (`dx=0.089`, `na=1.20`, `mu=0.01`); after setting optical attributes, assign `model.psf = model.getpsf()` when using the low-level API.
-
-One legacy PSF detail is deliberately preserved: `psf.setParams(nx=...)` does not update `ny`, while pupil-frequency sampling uses `ny`, initially `128`. Consequently, changing image size does not automatically rescale this pupil model as one might expect. This cleanup does not recalibrate the optical model; check its sampling before adapting it to a different acquisition.
-
-The CLI adds bounded refinement, input checks, optional diagnostic plots and working peak confirmation. Numerical compatibility checks against the original code are distinct from validation of physical image quality.
 
 ## Tests
 
