@@ -4,7 +4,7 @@ Python code for **2D structured illumination microscopy (SIM) reconstruction**, 
 
 This is the reconstruction code accompanying an **Optica** research article.
 
-This repository contains reconstruction code, documentation and synthetic tests. Experimental images, calibration files and reconstruction results are not included.
+This repository contains reconstruction code, documentation and synthetic tests, experimental images and calibration files
 
 ## Installation
 
